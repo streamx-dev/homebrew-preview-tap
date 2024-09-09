@@ -1,11 +1,11 @@
-# Generated with JReleaser 1.12.0 at 2024-09-09T09:20:48.127767982Z
+# Generated with JReleaser 1.12.0 at 2024-09-09T13:15:27.319576404Z
 
 class Streamx < Formula
   desc "CLI for StreamX - preview version"
   homepage "https://www.streamx.dev"
-  url "https://github.com/streamx-dev/streamx-cli-preview/releases/download/0.3.7-6-gf304429/streamx-0.3.7-6-gf304429.zip"
-  version "0.3.7-6-gf304429"
-  sha256 "8d3019150f9edd85650a6524bf2f84ab6e5688d239f31b29fd6aba0b5f686df7"
+  url "https://github.com/streamx-dev/streamx-cli-preview/releases/download/0.3.7-7-g42e3375/streamx-0.3.7-7-g42e3375.zip"
+  version "0.3.7-7-g42e3375"
+  sha256 "2153299faf235c3820057071bdf026c29070fdaa063eccb91821f3dd47667f61"
   license "EULA"
 
 
@@ -16,6 +16,6 @@ class Streamx < Formula
 
   test do
     output = shell_output("#{bin}/streamx --version")
-    assert_match "0.3.7-6-gf304429", output
+    assert_match "0.3.7-7-g42e3375", output
   end
 end
