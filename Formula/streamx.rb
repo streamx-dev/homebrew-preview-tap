@@ -1,11 +1,11 @@
-# Generated with JReleaser 1.15.0 at 2024-12-17T11:50:30.401699377Z
+# Generated with JReleaser 1.15.0 at 2024-12-17T11:50:48.893822344Z
 
 class Streamx < Formula
   desc "CLI for StreamX - preview version"
   homepage "https://www.streamx.dev"
   url "https://github.com/streamx-dev/streamx-cli-preview/releases/download/1.0.0-10-g9050a8d/streamx-1.0.0-10-g9050a8d.zip"
   version "1.0.0-10-g9050a8d"
-  sha256 "288c726639e95230237926efe7da9311fe0cad1099a0e6d559ea16bdb2c09b5d"
+  sha256 "63e9d0094d8e85695ea50a9d666962e0491bdc35489ff896aef94badc4438fa7"
   license "EULA"
 
 
